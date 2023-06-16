@@ -1,4 +1,4 @@
-package com.creational.factory;
+package creational.factory;
 
     public interface ImageReader {
         void read();
