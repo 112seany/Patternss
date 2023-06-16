@@ -1,4 +1,4 @@
-package com.creational.singelton;
+package creational.singelton;
 
     public class ProgramRunner {
         public static void main(String[] args) {

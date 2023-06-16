@@ -1,4 +1,4 @@
-package com.creational.factory;
+package creational.factory;
 
     public class JpgReader implements ImageReader {
         public void read() {
