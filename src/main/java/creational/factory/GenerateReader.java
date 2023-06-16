@@ -1,4 +1,4 @@
-package creational.factory;
+package main.java.creational.factory;
 
     public class GenerateReader {
         public static void main(String[] args) {

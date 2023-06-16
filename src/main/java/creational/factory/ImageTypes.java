@@ -1,4 +1,4 @@
-package creational.factory;
+package main.java.creational.factory;
 
     public enum ImageTypes {
     BMP,

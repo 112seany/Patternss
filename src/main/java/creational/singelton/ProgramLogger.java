@@ -1,4 +1,4 @@
-package creational.singelton;
+package main.java.creational.singelton;
 
     public class ProgramLogger {
         private static ProgramLogger PROGRAMM_LOGGER;
