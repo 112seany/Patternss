@@ -1,24 +1,24 @@
 package com.creational.singelton;
 
     public class ProgramLogger {
-        private static ProgramLogger programLogger;
-        private static String logFile = "This is log file. \n\n";
+        private static ProgramLogger PROGRAMM_LOGGER;
+        private static String LOG_FILE = "This is log file. \n\n";
 
         public static synchronized ProgramLogger getProgramLogger() {
-            if(programLogger == null) {
-                programLogger = new ProgramLogger();
+            if(PROGRAMM_LOGGER == null) {
+                PROGRAMM_LOGGER = new ProgramLogger();
             }
-            return programLogger;
+            return PROGRAMM_LOGGER;
         }
         private ProgramLogger() {
 
         }
 
         public void addLogInfo(String logInfo) {
-            logFile += logInfo + "\n";
+            LOG_FILE += logInfo + "\n";
          }
 
          public void showLogFile() {
-             System.out.println(logFile);
+             System.out.println(LOG_FILE);
          }
 }
